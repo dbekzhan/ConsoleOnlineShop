@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		286D1A0B20EA25AE0046A65D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D1A0A20EA25AE0046A65D /* main.swift */; };
+		286D1A1220EA25C10046A65D /* HelperFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D1A1120EA25C10046A65D /* HelperFunctions.swift */; };
+		286D1A1420EA25E80046A65D /* Good.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D1A1320EA25E80046A65D /* Good.swift */; };
+		286D1A1620EA26590046A65D /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D1A1520EA26590046A65D /* Client.swift */; };
+		286D1A1820EA26870046A65D /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D1A1720EA26870046A65D /* Cart.swift */; };
+		286D1A1A20EA26CB0046A65D /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D1A1920EA26CB0046A65D /* Enums.swift */; };
+		286D1A1C20EA280A0046A65D /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D1A1B20EA280A0046A65D /* Shop.swift */; };
+		286D1A1E20EA3D130046A65D /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D1A1D20EA3D130046A65D /* Bank.swift */; };
+		286D1A2120EA41DB0046A65D /* Storagable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286D1A2020EA41DB0046A65D /* Storagable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		286D1A0520EA25AE0046A65D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		286D1A0720EA25AE0046A65D /* Online Shop */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Online Shop"; sourceTree = BUILT_PRODUCTS_DIR; };
+		286D1A0A20EA25AE0046A65D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		286D1A1120EA25C10046A65D /* HelperFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperFunctions.swift; sourceTree = "<group>"; };
+		286D1A1320EA25E80046A65D /* Good.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Good.swift; sourceTree = "<group>"; };
+		286D1A1520EA26590046A65D /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		286D1A1720EA26870046A65D /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		286D1A1920EA26CB0046A65D /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		286D1A1B20EA280A0046A65D /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		286D1A1D20EA3D130046A65D /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		286D1A2020EA41DB0046A65D /* Storagable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storagable.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		286D1A0420EA25AE0046A65D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		286D19FE20EA25AE0046A65D = {
+			isa = PBXGroup;
+			children = (
+				286D1A0920EA25AE0046A65D /* Online Shop */,
+				286D1A0820EA25AE0046A65D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		286D1A0820EA25AE0046A65D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				286D1A0720EA25AE0046A65D /* Online Shop */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		286D1A0920EA25AE0046A65D /* Online Shop */ = {
+			isa = PBXGroup;
+			children = (
+				286D1A0A20EA25AE0046A65D /* main.swift */,
+				286D1A1120EA25C10046A65D /* HelperFunctions.swift */,
+				286D1A1F20EA3D320046A65D /* Models */,
+				286D1A1920EA26CB0046A65D /* Enums.swift */,
+				286D1A2020EA41DB0046A65D /* Storagable.swift */,
+			);
+			path = "Online Shop";
+			sourceTree = "<group>";
+		};
+		286D1A1F20EA3D320046A65D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				286D1A1520EA26590046A65D /* Client.swift */,
+				286D1A1720EA26870046A65D /* Cart.swift */,
+				286D1A1B20EA280A0046A65D /* Shop.swift */,
+				286D1A1320EA25E80046A65D /* Good.swift */,
+				286D1A1D20EA3D130046A65D /* Bank.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		286D1A0620EA25AE0046A65D /* Online Shop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 286D1A0E20EA25AE0046A65D /* Build configuration list for PBXNativeTarget "Online Shop" */;
+			buildPhases = (
+				286D1A0320EA25AE0046A65D /* Sources */,
+				286D1A0420EA25AE0046A65D /* Frameworks */,
+				286D1A0520EA25AE0046A65D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Online Shop";
+			productName = "Online Shop";
+			productReference = 286D1A0720EA25AE0046A65D /* Online Shop */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		286D19FF20EA25AE0046A65D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Dimash Bekzhan";
+				TargetAttributes = {
+					286D1A0620EA25AE0046A65D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 286D1A0220EA25AE0046A65D /* Build configuration list for PBXProject "Online Shop" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 286D19FE20EA25AE0046A65D;
+			productRefGroup = 286D1A0820EA25AE0046A65D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				286D1A0620EA25AE0046A65D /* Online Shop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		286D1A0320EA25AE0046A65D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				286D1A1420EA25E80046A65D /* Good.swift in Sources */,
+				286D1A2120EA41DB0046A65D /* Storagable.swift in Sources */,
+				286D1A1E20EA3D130046A65D /* Bank.swift in Sources */,
+				286D1A0B20EA25AE0046A65D /* main.swift in Sources */,
+				286D1A1820EA26870046A65D /* Cart.swift in Sources */,
+				286D1A1A20EA26CB0046A65D /* Enums.swift in Sources */,
+				286D1A1C20EA280A0046A65D /* Shop.swift in Sources */,
+				286D1A1620EA26590046A65D /* Client.swift in Sources */,
+				286D1A1220EA25C10046A65D /* HelperFunctions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		286D1A0C20EA25AE0046A65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		286D1A0D20EA25AE0046A65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		286D1A0F20EA25AE0046A65D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5G8F68HWD2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		286D1A1020EA25AE0046A65D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5G8F68HWD2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		286D1A0220EA25AE0046A65D /* Build configuration list for PBXProject "Online Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286D1A0C20EA25AE0046A65D /* Debug */,
+				286D1A0D20EA25AE0046A65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		286D1A0E20EA25AE0046A65D /* Build configuration list for PBXNativeTarget "Online Shop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				286D1A0F20EA25AE0046A65D /* Debug */,
+				286D1A1020EA25AE0046A65D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 286D19FF20EA25AE0046A65D /* Project object */;
+}
